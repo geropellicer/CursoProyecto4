@@ -18,7 +18,7 @@
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from perfiles.api.views import PerfilViewSet, EstadoPerfilViewSet, AvatarUpdateView
+from perfiles.api.views import VerListaPerfilesViewSet
 
 router = DefaultRouter()
 router.register(r"perfiles", PerfilViewSet)
